@@ -1,4 +1,5 @@
 # Decoder-ring-project
+Three functions were created to encode and decode text. It can be used when some event is happening and game style activity has to be presented. These functions will let you have so much fun! 
 #### Includes:
 1. Caesar function 
 1. Polybius function
