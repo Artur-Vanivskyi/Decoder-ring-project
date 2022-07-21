@@ -29,8 +29,7 @@ const caesarModule = (function () {
       // assigning character intex plus shift value to variable shifted to have desired movement
       const shifted = char + shift
       // making if statement to see if all conditions are met
-      // /[a-zA-Z]/.test(letter) checking if every character is letter in input data
-      if (/[a-zA-Z]/.test(letter)) {
+      if (char >= 97 && char <=122) {
         // checking condition if shifted value is graiter than 122 , I push data into string with position of index 122 - 26 
         // 26 is amount of letters in alphabet when we go from a to z
         if(shifted > 122){
